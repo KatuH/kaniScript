@@ -62,7 +62,7 @@
       <ModuleDefinitionFile>scriptCore.def</ModuleDefinitionFile>
     </Link>
     <Lib>
-      <ModuleDefinitionFile>$(ProjectName)</ModuleDefinitionFile>
+      <ModuleDefinitionFile>$(ProjectName).def</ModuleDefinitionFile>
     </Lib>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -83,7 +83,7 @@
       <ModuleDefinitionFile>scriptCore.def</ModuleDefinitionFile>
     </Link>
     <Lib>
-      <ModuleDefinitionFile>$(ProjectName)</ModuleDefinitionFile>
+      <ModuleDefinitionFile>$(ProjectName).def</ModuleDefinitionFile>
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
