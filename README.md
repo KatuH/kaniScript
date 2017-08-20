@@ -19,3 +19,34 @@ Script language for Katuh Adventure Novel Interpreter
 インタープリタのプロジェクト
 #### ksmgr ディレクトリ
 コマンドラインツールのプロジェクト
+
+### その他
+#### doc ディレクトリ
+多分そのうち書く
+
+## チュートリアル
+ソースコードを展開後、プログラムにスクリプトを組み込むまでの手順です。
+
+### スクリプトの組み込み
+1. ソリューションを Release 構成でビルド
+    * `kaniScript.sln`をVisualStudioで開いてビルド
+    * `MsBuild kaniScript.sln /t:build /p:Configuration=Release`
+1. ライブラリを使用するプロジェクトに追加
+   1. インクルードバスに`include`ディレクトリを追加
+   1. ライブラリパスに`Release`ディレクトリを追加
+   1. リンカーライブラリ入力に`scriptCore.lib`を追加
+1. プログラムにライブラリを追加
+   1. ソースコードに'#include "kaniScript.h"'を追加
+
+### スクリプトの実行
+1. hoge
+
+## スクリプトリファレンス
+```
+        地の文
+人名     発言
+```
+work in progress...
+
+## 組み込みAPIリファレンス
+work in progress...
