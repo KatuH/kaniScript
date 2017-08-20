@@ -5,6 +5,11 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "scriptCore", "scriptCore\scriptCore.vcxproj", "{DB3A9678-BCBB-4B8E-9460-F7051D09B4AD}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ksmgr", "ksmgr\ksmgr.vcxproj", "{20901539-9759-4168-9BEA-79B0F52AEE80}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DB3A9678-BCBB-4B8E-9460-F7051D09B4AD} = {DB3A9678-BCBB-4B8E-9460-F7051D09B4AD}
+	EndProjectSection
+EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "テキスト", "テキスト", "{72760428-5ECF-4123-8364-FDB224296E06}"
 	ProjectSection(SolutionItems) = preProject
 		include\kaniScript.h = include\kaniScript.h
@@ -21,6 +26,10 @@ Global
 		{DB3A9678-BCBB-4B8E-9460-F7051D09B4AD}.Debug|x86.Build.0 = Debug|Win32
 		{DB3A9678-BCBB-4B8E-9460-F7051D09B4AD}.Release|x86.ActiveCfg = Release|Win32
 		{DB3A9678-BCBB-4B8E-9460-F7051D09B4AD}.Release|x86.Build.0 = Release|Win32
+		{20901539-9759-4168-9BEA-79B0F52AEE80}.Debug|x86.ActiveCfg = Debug|Win32
+		{20901539-9759-4168-9BEA-79B0F52AEE80}.Debug|x86.Build.0 = Debug|Win32
+		{20901539-9759-4168-9BEA-79B0F52AEE80}.Release|x86.ActiveCfg = Release|Win32
+		{20901539-9759-4168-9BEA-79B0F52AEE80}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
