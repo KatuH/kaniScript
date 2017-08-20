@@ -1,2 +1,21 @@
 # kaniScript
-Script language for Katuh Adventure Novel Interpreter
+Script language for Katuh Adventure Novel Interpreter  
+アドベンチャーゲームやノベルゲームに分類されるゲーム向けのスクリプト言語
+
+## ソリューションの構成
+
+### ライブラリ
+以下のディレクトリは言語を使用するプロジェクトから参照します。
+
+#### include ディレクトリ
+公開API用のディレクトリ
+#### Debug,Relese ディレクトリ
+ライブラリ等のディレクトリ
+
+### ソースコード
+以下のディレクトリは言語とツールのソースコードになります。
+
+#### scriptCore ディレクトリ
+インタープリタのプロジェクト
+#### ksmgr ディレクトリ
+コマンドラインツールのプロジェクト
